@@ -25,7 +25,7 @@ function convertSecondsToMinutes(seconds) {
 }
 
 async function fetchFolderData(folder) {
-    let response = await fetch(`http://127.0.0.1:3000/${folder}/`);
+    let response = await fetch(`/${folder}/`);
     let text = await response.text();
     let div = document.createElement("div");
     div.innerHTML = text;
@@ -348,7 +348,7 @@ function setupEventListeners() {
 }
 
 async function displayAlbums() {
-    let response = await fetch(`http://127.0.0.1:3000/Songs/`);
+    let response = await fetch(`/Songs/`);
     let text = await response.text();
     let div = document.createElement("div");
     div.innerHTML = text;
@@ -362,7 +362,7 @@ async function displayAlbums() {
             console.log(folder);
 
        
-            let response = await fetch(`http://127.0.0.1:3000/Songs/${folder}/info.json`);
+            let response = await fetch(`/Songs/${folder}/info.json`);
             let text = await response.json();
             console.log(text);
 
