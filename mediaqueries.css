@@ -1,0 +1,44 @@
+/* @media (max-width: 991px) {
+    .left1, .left2{
+      z-index: 1000;
+       position: absolute;
+       left: -100%;
+       transition: all .7s;
+       width: 433px;
+    }
+     
+    .cardcontainer{
+        flex-wrap: wrap;
+        overflow-x: hidden;
+        max-width: 991px;
+        justify-content: center;
+    align-items: center;
+    }
+    .card{
+        height: 290px;
+        width: 220px;
+        margin: 5px; /* Adjust margin */
+    }
+    /* .card img{
+        width: 180px;
+    }
+    .card h4{
+        
+    }
+
+    .right{
+        width: 99vw;
+        position: fixed;
+        left: 0px;
+
+    }
+
+    .hamburger{
+        display: block;
+        position: relative;
+        left: 5px;
+    }
+    
+  }
+  
+   */ */

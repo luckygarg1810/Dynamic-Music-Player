@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone'</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="mediaqueries.css"> -->
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="left1">
+      <img src="Assets/spotify_logo.svg" class="spotify">
+      <ul>
+     <li class="hometext"> <a href="http://127.0.0.1:3000/index.html"><img src="Assets/home.svg" class="home"> </a>Home </li>
+        <li class="searchtext"><img src="Assets/search.svg" class="search">Search</li>
+      </ul>
+    </div>
+    <div class=" left2">
+      <div class="library"> <img src="Assets/libraryIcon.svg" class="libraryIcon"> Your Library <img
+          src="Assets/plusIcon.svg" class="plusIcon"></div>
+      <!-- <div class=" left21">
+        <div class="playlist">
+          <p class="playlisttext1"> Create your first playlist</p>
+          <p class="playlisttext2">It's easy, we'll help you</p>
+          <button class="playlistbutton">Create playlist</button>
+        </div>
+      </div> -->
+
+      <div class="currentsong">
+        <ul>
+
+        </ul>
+      </div>
+    </div>
+    <div class="right">
+      <nav>
+        <img src="Assets/hamburger.svg" class="hamburger">
+        <div class="arrows">
+          <button><img src="Assets/arrow1.svg" class="arrow1"> </button>
+          <button><img src="Assets/arrow2.svg" class="arrow2"> </button>
+        </div>
+        <div class="sign">
+          <button class="signup">Sign up</button>
+          <button class="login">Log in</button>
+        </div>
+      </nav>
+      <div class="playlists">
+        <a href="">Spotify Playlists</a>
+
+        <div class="cardcontainer">
+
+        </div>
+      </div>
+    </div>
+    <div class="playbar">
+      <div>
+        <img src="" id="playing">
+      </div>
+      <div class="songinfo">
+        <div class="songName">
+
+        </div>
+        <div class="artistName">
+
+        </div>
+      </div>
+      <div class="playbarbuttons">
+        <button id="backward"><img src="Assets/fastbackward.svg" alt=""></button>
+        <button id="previousbutton"><img src="Assets/previous.svg" alt=""></button>
+        <button id="playbutton"><img src="Assets/playbutton.svg" alt=""></button>
+        <button id="nextbutton"><img src="Assets/next.svg" alt=""></button>
+        <button id="forward"><img src="Assets/fastforward.svg" alt=""></button>
+      </div>
+      <div class="loop">
+        <img src="Assets/loop.svg" alt="">
+      </div>
+      <div class="volume">
+        <div class="volumeseekbar">
+
+        </div>
+        <div class="range">
+          <input type="range" name="volume" id="volumerange">
+        </div class="volumehigh">
+        <img src="Assets/volumehigh.svg" id="volumemute">
+      </div>
+      <div class="duration">
+
+      </div>
+      <div class="seekbar">
+        <div class="seekbar-background"></div>
+        <div class="seekbar-inner"></div>
+        <div class="circle">
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <footer>
+    <div class="preview">
+      <p class="preview1">Preview of spotify</p>
+      <p class="preview2">Sign up to get unlimited songs and podcasts with ocassional ads. No credit card needed.</p>
+      <button class="previewbutton">Sign up for free</button>
+    </div>
+  </footer> -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
